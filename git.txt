@@ -2,6 +2,6 @@ git config core.autocrlf true
 
 git add .
 
-git commit -m "graphql"
+git commit -m "RestAPI2"
 
 git push origin master

@@ -60,12 +60,25 @@
             "Name",
             "Arn"
           ]
+        },
+        {
+          "category": "function",
+          "resourceName": "upload",
+          "attributes": [
+            "Name",
+            "Arn"
+          ]
         }
       ]
     }
   },
   "function": {
     "preprocessing": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "upload": {
       "build": true,
       "providerPlugin": "awscloudformation",
       "service": "Lambda"

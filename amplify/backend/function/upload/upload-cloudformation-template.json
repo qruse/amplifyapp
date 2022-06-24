@@ -49,13 +49,13 @@
             "FunctionName": {
                 "Fn::If": [
                     "ShouldNotCreateEnvResources",
-                    "preprocessing",
+                    "upload",
                     {
 
                         "Fn::Join": [
                             "",
                             [
-                                "preprocessing",
+                                "upload",
                                 "-",
                                 {
                                     "Ref": "env"
@@ -80,13 +80,13 @@
                 "RoleName": {
                     "Fn::If": [
                         "ShouldNotCreateEnvResources",
-                        "amplifyappLambdaRole111e7a92",
+                        "amplifyappLambdaRolea43ee0ba",
                         {
 
                             "Fn::Join": [
                                 "",
                                 [
-                                    "amplifyappLambdaRole111e7a92",
+                                    "amplifyappLambdaRolea43ee0ba",
                                     "-",
                                     {
                                         "Ref": "env"

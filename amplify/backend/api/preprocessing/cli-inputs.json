@@ -1,9 +1,16 @@
 {
   "version": 1,
   "paths": {
-    "/preprocessing": {
-      "name": "/preprocessing",
+    "/data/{preprocessing}": {
+      "name": "/data/{preprocessing}",
       "lambdaFunction": "preprocessing",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/data2/{upload}": {
+      "name": "/data2/{upload}",
+      "lambdaFunction": "upload",
       "permissions": {
         "setting": "open"
       }
