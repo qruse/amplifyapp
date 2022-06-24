@@ -1,9 +1,9 @@
 {
   "version": 1,
   "paths": {
-    "/prep": {
-      "name": "/prep",
-      "lambdaFunction": "preprocess",
+    "/preprocessing": {
+      "name": "/preprocessing",
+      "lambdaFunction": "preprocessing",
       "permissions": {
         "setting": "open"
       }

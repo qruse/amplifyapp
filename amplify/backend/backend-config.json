@@ -55,7 +55,7 @@
       "dependsOn": [
         {
           "category": "function",
-          "resourceName": "preprocess",
+          "resourceName": "preprocessing",
           "attributes": [
             "Name",
             "Arn"
@@ -65,11 +65,10 @@
     }
   },
   "function": {
-    "preprocess": {
+    "preprocessing": {
       "build": true,
       "providerPlugin": "awscloudformation",
-      "service": "Lambda",
-      "dependsOn": []
+      "service": "Lambda"
     }
   }
 }
