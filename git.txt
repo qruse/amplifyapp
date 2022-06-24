@@ -2,6 +2,6 @@ git config core.autocrlf true
 
 git add .
 
-git commit -m "auth3"
+git commit -m "graphql"
 
 git push origin master
