@@ -1,0 +1,7 @@
+git config core.autocrlf true
+
+git add .
+
+git commit -m "auth2"
+
+git push origin master
