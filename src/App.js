@@ -1,32 +1,18 @@
-import React from 'react';
-import './App.css';
-import { withAuthenticator } from '@aws-amplify/ui-react'
-
-import { Amplify } from 'aws-amplify';
+import { withAuthenticator, Button, Heading } from '@aws-amplify/ui-react';
 import '@aws-amplify/ui-react/styles.css';
 
-import awsExports from './aws-exports';
-Amplify.configure(awsExports);
-
-function App({ isPassedToWithAuthenticator, signOut, user }) {
-  if (!isPassedToWithAuthenticator) {
-    throw new Error(`isPassedToWithAuthenticator was not provided`);
-  }
+/* src/App.js */
+function App({ signOut, user }) {
+  // Todo logic here
 
   return (
     <>
-      <h1>Hello {user.username}</h1>
-      <button onClick={signOut}>Sign out</button>
+      {/* Add Todo JSX here  */}
+      <Heading level={1}>Hello {user.username}</Heading>
+      <Button onClick={signOut}>Sign out</Button>
     </>
   );
 }
 
 export default withAuthenticator(App);
 
-export async function getStaticProps() {
-  return {
-    props: {
-      isPassedToWithAuthenticator: true,
-    },
-  };
-}
