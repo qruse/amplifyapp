@@ -3,10 +3,21 @@
   "serviceConfiguration": {
     "apiName": "amplifyapp",
     "serviceName": "AppSync",
-    "gqlSchemaPath": "C:\\Users\\coolw\\amplifyapp\\amplify\\backend\\api\\amplifyapp\\schema.graphql",
+    "gqlSchemaPath": "/tmp/amplify-ade3f02d-da58-4bca-b2d8-90a6949c2171/amplify/backend/api/amplifyapp/schema.graphql",
     "defaultAuthType": {
       "mode": "API_KEY",
-      "expirationTime": 7
-    }
+      "keyDescription": "api key description",
+      "expirationTime": 30
+    },
+    "conflictResolution": {
+      "defaultResolutionStrategy": {
+        "type": "AUTOMERGE"
+      }
+    },
+    "additionalAuthTypes": [
+      {
+        "mode": "AWS_IAM"
+      }
+    ]
   }
 }

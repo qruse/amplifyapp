@@ -2,6 +2,6 @@ git config core.autocrlf true
 
 git add .
 
-git commit -m "Front1"
+git commit -m "Storage"
 
 git push origin master

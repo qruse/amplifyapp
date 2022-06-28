@@ -18,11 +18,11 @@
       "function": {
         "preprocessing": {
           "deploymentBucketName": "amplify-amplifyapp-master-54319-deployment",
-          "s3Key": "amplify-builds/preprocessing-5945386b71623338537a-build.zip"
+          "s3Key": "amplify-builds/preprocessing-7851656548664d70364b-build.zip"
         },
         "upload": {
           "deploymentBucketName": "amplify-amplifyapp-master-54319-deployment",
-          "s3Key": "amplify-builds/upload-307957306f432f64714a-build.zip"
+          "s3Key": "amplify-builds/upload-784c7468386c6830416e-build.zip"
         }
       }
     }

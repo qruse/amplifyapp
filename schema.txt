@@ -1,0 +1,12 @@
+{
+	ID: ID!
+	record_time: AWSDateTime!
+	Location_name: Float!
+	Latitude: Float!
+	Longitude: Float!
+	water_temp: Float
+	doxy: Float
+	phDnsty: Float
+	salnt: Float
+	tmprt: Float
+}
