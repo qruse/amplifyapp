@@ -83,5 +83,12 @@
       "providerPlugin": "awscloudformation",
       "service": "Lambda"
     }
+  },
+  "storage": {
+    "s3amplifyappstorage1ac47a27": {
+      "service": "S3",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": []
+    }
   }
 }
