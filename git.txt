@@ -2,6 +2,6 @@ git config core.autocrlf true
 
 git add .
 
-git commit -m "Storage"
+git commit -m "DataModel"
 
 git push origin master
